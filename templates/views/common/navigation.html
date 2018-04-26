@@ -1,0 +1,30 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul side-navigation class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+
+                <div class="profile-element" uib-dropdown>
+                    <img alt="image" class="img-circle" src="/static/img/profile_small.jpg"/>
+                    <a uib-dropdown-toggle href>
+                        <span class="clear">
+                            <span class="block m-t-xs">
+                                <strong class="font-bold">Administrator</strong>
+                         </span>
+                            <span class="text-muted text-xs block">Security Department</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="logo-element">
+                    VC+
+                </div>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home"><i class="fa fa-bug"></i> <span class="nav-label">{{ 'HOME' | translate }}</span> </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="tasks"><i class="fa fa-table"></i> <span class="nav-label">{{ 'TASKS' | translate }}</span> </a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
